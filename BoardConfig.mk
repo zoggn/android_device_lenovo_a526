@@ -77,6 +77,7 @@ TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/class/android_usb/f_mass_storage/lun/fil
 TARGET_RECOVERY_LCD_BACKLIGHT_PATH := /sys/devices/platform/leds-mt65xx/leds/lcd-backlight/brightness
 TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/root/recovery.fstab
 #TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
+LZMA_RAMDISK_TARGETS := recovery
 
 # Deodex
 WITH_DEXPREOPT := false
