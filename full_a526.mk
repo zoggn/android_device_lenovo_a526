@@ -5,7 +5,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Call device specific makefile
-$(call inherit-product, device/lenovo/a526.mk)
+$(call inherit-product, device/lenovo/a526/a526.mk)
 
 LOCAL_PATH := device/lenovo/a526
 
